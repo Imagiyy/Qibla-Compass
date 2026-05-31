@@ -12,7 +12,6 @@ Developed by **Abrar M**.
 - **Display Orientation Support:** Remaps coordinates automatically to support Landscape, Portrait, and reverse orientations.
 - **Geomagnetic Correction:** Integrates the NOAA World Magnetic Model to compute declination and translate magnetic readings to True North.
 - **Power Efficiency ("Stop-on-Fix"):** Automatically suspends GPS tracking once an accurate coordinate fix is resolved, saving battery power.
-- **State-Hoisted Architecture:** Standard Jetpack Compose design pattern with a fully previewable layout compiler in Android Studio.
 - **Compass Calibration HUD:** Displays status alerts and instructions on performing figure-8 calibration motions when local magnetic interference is high.
 
 ---
