@@ -1,0 +1,89 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Golden Navigation Dial Ring -->
+    <path
+        android:strokeColor="#E4C374"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M 54,22 A 32,32 0 1, 1 53.99, 22 Z" />
+        
+    <path
+        android:strokeColor="#10A164"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M 54,28 A 26,26 0 1, 1 53.99, 28 Z" />
+
+    <!-- Cardinal Marks -->
+    <!-- North Tick Indicator -->
+    <path
+        android:strokeColor="#FF3B30"
+        android:strokeWidth="3"
+        android:pathData="M 54,16 L 54,25" />
+    <path
+        android:strokeColor="#FF3B30"
+        android:strokeWidth="3"
+        android:pathData="M 51,16 L 57,16" />
+
+    <!-- South Tick Indicator -->
+    <path
+        android:strokeColor="#E4C374"
+        android:strokeWidth="2"
+        android:pathData="M 54,83 L 54,92" />
+
+    <!-- East Tick Indicator -->
+    <path
+        android:strokeColor="#E4C374"
+        android:strokeWidth="2"
+        android:pathData="M 83,54 L 92,54" />
+
+    <!-- West Tick Indicator -->
+    <path
+        android:strokeColor="#E4C374"
+        android:strokeWidth="2"
+        android:pathData="M 16,54 L 25,54" />
+
+    <!-- Intermediate ticks at 45 degree corners -->
+    <path
+        android:strokeColor="#232832"
+        android:strokeWidth="1.5"
+        android:pathData="M 31.4,31.4 L 35.6,35.6" />
+    <path
+        android:strokeColor="#232832"
+        android:strokeWidth="1.5"
+        android:pathData="M 76.6,31.4 L 72.4,35.6" />
+    <path
+        android:strokeColor="#232832"
+        android:strokeWidth="1.5"
+        android:pathData="M 31.4,76.6 L 35.6,72.4" />
+    <path
+        android:strokeColor="#232832"
+        android:strokeWidth="1.5"
+        android:pathData="M 76.6,76.6 L 72.4,72.4" />
+
+    <!-- Stylized Dual-Tone Qibla Compass Pointer pointing Northeast -->
+    <path
+        android:fillColor="#E4C374"
+        android:pathData="M 54,54 L 73,35 L 61,43 L 54,47 Z" />
+    <path
+        android:fillColor="#FFFFD7"
+        android:pathData="M 54,54 L 54,47 L 47,43 L 35,73 Z" />
+        
+    <path
+        android:fillColor="#10A164"
+        android:pathData="M 54,54 L 35,35 L 43,47 L 47,54 Z" />
+    <path
+        android:fillColor="#0D8250"
+        android:pathData="M 54,54 L 47,54 L 43,61 L 35,73 Z" />
+
+    <!-- Central Brass Cap Pivot Pivot -->
+    <path
+        android:fillColor="#FFFFD7"
+        android:pathData="M 54,54 m -4,0 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0 Z" />
+    <path
+        android:fillColor="#0B0D11"
+        android:pathData="M 54,54 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0 Z" />
+</vector>

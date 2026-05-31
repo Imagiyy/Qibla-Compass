@@ -1,0 +1,34 @@
+# Built artifacts
+/build
+/*/build
+/captures
+
+# Local configuration files
+local.properties
+
+# Gradle Files
+.gradle
+/buildSrc/build
+.gradle/
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+.navigation/
+
+# Log Files
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+debug.keystore
+my-upload-key.jks
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment/API secret files
+.env
+.env.example

@@ -1,0 +1,6 @@
+{
+  "name": "Qibla Compass",
+  "creator": "Abrar M",
+  "description": "A beautiful, minimalist Qibla Finder app with auto location tracking, real-time sensor-fusion compass, and precise geomagnetic declination correction.",
+  "requestFramePermissions": []
+}
